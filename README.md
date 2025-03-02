@@ -4,42 +4,23 @@
 The **Credit-Based Document Scanning System** is an advanced platform designed for **secure document scanning and similarity detection** with a built-in **credit-based access model**. Users are allocated **daily credits** for scanning, and the system intelligently detects similarities between new uploads and existing records.
 
 
-
 This project highlights expertise in **full-stack development**, **secure authentication**, and **database efficiency**.
 
 ---
 
-## 🎯 Features
+## 🚀 Key Features
+# 🔹 For Users
+✅ Secure Login & Signup 🔐 | 20 Daily Free Credits 💳
+✅ Upload & Manage Docs 📁 | 1 Credit per Scan 📝
+✅ Similarity Check 🔍 | Track History 📜
+✅ Request Extra Credits 📨
 
-### 🔹 **User Features**
-✅ **Secure Login & Registration** 🔐  
-✅ **Credit System** 💳  
-   - **20 free credits** added every midnight 🌙  
-   - **1 credit deducted per document scan** 📝  
-✅ **Upload & Manage Documents** 📁  
-✅ **Document Similarity Detection** 🔍  
-   - Compares new uploads with **user history** 🏛️  
-   - Displays **percentage match** if similarities are found 📊  
-✅ **Track Document History** 📜  
-✅ **Request Extra Credits from Admin** 📨  
+# 🔸 For Admins
+✅ User & Role Management 🎛️ | Approve/Deny Credit Requests ✅❌
+✅ Monitor Docs & Activity 📂📜 | Enable/Disable Users 🚦
+✅ Dashboard Insights 📊 (Users, Docs, Requests, Logs)
 
-
----
-
-
-
-### 🔸 **Admin Features**
-✅ **User Approval & Management** 👥  
-✅ **Manage Admin & User Roles** 🎛️  
-✅ **Handle Credit Requests** ✅❌  
-✅ **View & Manage Uploaded Documents** 📂  
-✅ **Deactivate/Activate Users** 🚦  
-✅ **Dashboard Insights & Analytics** 📊  
-   - **Total Users & Admins** 👨‍💼👩‍💼  
-   - **Total Documents Uploaded** 📑  
-   - **Pending Credit Requests** 🕒  
-   - **Recent User Activity Log** 📜  
-
+🎯 Effortless Document Management – Powered by Credits! 🚀
 
 
 ---
