@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Connect</title>
+    <link rel="stylesheet" href="css/registerStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <img class="header-logo" src="https://uploads-ssl.webflow.com/61ea81bfbcc4021c324c17e1/61ea81c0bcc402086c4c1984_CATHAGO%20Logo%20Nov.png" alt="Cathago Logo">
+                <h1 class="header-title">Welcome to Connect</h1>
+                <p class="header-subtitle">Create your account and join our community today!</p>
+            </div>
+        </header>
+
+        <main class="register-container">
+            <div class="register-card">
+                <div class="register-form-container">
+                    <h1 class="register-title">Register Now!</h1>
+
+                    <!-- Error Message Section -->
+                    <div class="error-message" id="errorMessage" role="alert" style="display: none;"></div>
+
+                    <!-- Registration Form -->
+                    <form id="registerForm" novalidate>
+                        <!-- Username Field -->
+                        <div class="form-group">
+                            <label class="form-label" for="username">
+                                <i class="fas fa-user"></i> Username
+                            </label>
+                            <input type="text" id="username" name="username" class="form-input" placeholder="Enter your username" required>
+                            <span class="error-text" id="usernameError"></span>
+                        </div>
+
+                        <!-- Email Field -->
+                        <div class="form-group">
+                            <label class="form-label" for="email">
+                                <i class="fas fa-envelope"></i> Email Address
+                            </label>
+                            <input type="email" id="email" name="useremail" class="form-input" placeholder="user@email.com" required>
+                            <span class="error-text" id="emailError"></span>
+                        </div>
+
+                        <!-- Password Field -->
+                        <div class="form-group">
+                            <label class="form-label" for="password">
+                                <i class="fas fa-lock"></i> Password
+                            </label>
+                            <input type="password" id="password" name="password" class="form-input" placeholder="Minimum six characters" minlength="6" required>
+                            <span class="error-text" id="passwordError"></span>
+                        </div>
+
+                        <!-- Role Selection -->
+                        <div class="form-group">
+                            <label class="form-label">
+                                <i class="fas fa-user-tag"></i> Select Role
+                            </label>
+                            <div class="role-container">
+                                <div class="role-option">
+                                    <input type="radio" id="user" name="role" value="user" class="role-radio" checked>
+                                    <label for="user" class="role-label">User</label>
+                                </div>
+                                <div class="role-option">
+                                    <input type="radio" id="admin" name="role" value="admin" class="role-radio">
+                                    <label for="admin" class="role-label">Admin</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="register-button">
+                            <i class="fas fa-sign-in-alt"></i> Create an Account
+                        </button>
+
+                        <!-- Login Link -->
+                        <div class="login-link">
+                            Already have an account? <a href="login.html">Login here</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <span class="copyright">
+                    © 2025 <a href="#">Cathago™</a>. All Rights Reserved.
+                </span>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fas fa-phone"></i> Contact Us</a></li>
+                    <li><a href="mailto:namarnadh.9@gmail.com"><i class="fas fa-envelope"></i> namarnadh.9@gmail.com</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/register.js"></script>
+</body>
+
+</html>
