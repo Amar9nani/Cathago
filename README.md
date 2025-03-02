@@ -1,10 +1,7 @@
 # 📜 Credit-Based Document Scanning System
 
 ## 🚀 Overview
-The **Credit-Based Document Scanning System** is an advanced platform designed for **secure document scanning and similarity detection** with a built-in **credit-based access model**. Users are allocated **daily credits** for scanning, and the system intelligently detects similarities between new uploads and existing records.
-
-
-This project highlights expertise in **full-stack development**, **secure authentication**, and **database efficiency**.
+The Credit-Based Document Scanning System is a cutting-edge solution that revolutionizes secure document scanning and similarity analysis. With an intelligent credit-based access framework, users receive daily scanning credits, ensuring controlled and fair usage. The system employs advanced algorithms to detect similarities between newly uploaded documents and existing records, enhancing security, efficiency, and data integrity.
 
 ---
 
@@ -60,12 +57,6 @@ node server.js
 
 ### 🗄️ **Database**
 - SQLite 🗃️
-
-### 🛠️ **Storage**
-- File system for document management 📂
-
-### 🔐 **Authentication**
-- bcrypt for password hashing 🔑
 
 ---
 
